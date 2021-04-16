@@ -7,7 +7,9 @@ public interface IMaths {
 
     int soustraction (int a, int b);
 
-    int multiplication (int a, int b);
+    int multiplicationV1 (int a, int b);
 
-    double division (int a, int b) throws MathsExceptions;
+    int multiplicationV2 (int a, int b);
+
+    double division (double a, double b) throws MathsExceptions;
 }
