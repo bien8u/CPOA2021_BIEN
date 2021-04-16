@@ -42,7 +42,6 @@ public class Maths implements IMaths {
         }
 
         try {
-            System.out.println("oy");
             return a/b;
         } catch (ArithmeticException e){
             System.out.println(e.getMessage());
